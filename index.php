@@ -29,7 +29,7 @@ curl_close($ch);
     </pre> -->
 
     <body>
-        <h1>La proxima pelicula de Marvel</h1>
+        <h1>La proxima película de Marvel</h1>
         <section>
             <img src="<?= $data["poster_url"]; ?>" width="200" alt="Poster de <?= $data["title"]; ?>"
                 style="border-radius: 16px;" />
